@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.rest.jsonexamples.SharingdatausingItextContext_GetBookng">
+        <methods>
+          <include name="createBooking"/>
+        </methods>
+      </class> <!-- com.rest.jsonexamples.SharingdatausingItextContext_GetBookng -->
+      <class name="com.rest.jsonexamples.SharingdatausingItextContext_createBooking">
+        <methods>
+          <include name="createBooking"/>
+        </methods>
+      </class> <!-- com.rest.jsonexamples.SharingdatausingItextContext_createBooking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.rest.jsonexamples.SharingdatausingItextContext_GetBookng">
+        <methods>
+          <include name="createBooking"/>
+        </methods>
+      </class> <!-- com.rest.jsonexamples.SharingdatausingItextContext_GetBookng -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

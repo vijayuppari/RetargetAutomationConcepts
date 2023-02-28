@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="classes">
+  <test name="Test">
+    <classes>
+      <class name="com.rest.threads.ThreadLocalTestModuleParallelasMap_2"/>
+      <class name="com.rest.threads.ThreadLocalTestModuleParallelasMap_1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
